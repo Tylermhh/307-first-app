@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import Table from "./Table";
+import Form from "./Form";
 
 const characters = [
   {
@@ -52,6 +53,7 @@ function MyApp() {
         characterData = {characters} 
         removeCharacter = {removeOneCharacter}
       />
+      <Form />
     </div>
   );
 }
