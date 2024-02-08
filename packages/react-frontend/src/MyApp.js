@@ -5,27 +5,27 @@ import Form from "./Form";
 function MyApp() {
   const [characters, setCharacters] = useState([
       {
-        id: "xyz789",
+        _id: "xyz789",
         name: "Charlie",
         job: "Janitor",
       },
       {
-        id: "abc123",
+        _id: "abc123",
         name: "Mac",
         job: "Bouncer",
       },
       {
-        id: "ppp222",
+        _id: "ppp222",
         name: "Mac",
         job: "Professor",
       },
       {
-        id: "yat999",
+        _id: "yat999",
         name: "Dee",
         job: "Aspring actress",
       },
       {
-        id: "zap555",
+        _id: "zap555",
         name: "Dennis",
         job: "Bartender",
       },
