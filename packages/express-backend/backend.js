@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-import userServices from "./user-services";
+import userServices from "./user-services.js";
 
 
 const app = express();
@@ -96,7 +96,16 @@ app.get("/users", (req, res) => {
       .catch((error) => {
         res.status(404).send("Resource not found.");
       })
+  }
 
+  else{
+    userServices.getUsers()
+    .then((result) => {
+      res.send({users_list : result}) //not sure why i need to wrap it in users_list again. mayb not anymore after exercise 4 change
+    })
+    .catch((error) => {
+      res.status(404).send("Resource not found.");
+    })
   }
 });
 

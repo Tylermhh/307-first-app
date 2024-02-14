@@ -4,31 +4,31 @@ import Form from "./Form";
 
 function MyApp() {
   const [characters, setCharacters] = useState([
-      {
-        _id: "xyz789",
-        name: "Charlie",
-        job: "Janitor",
-      },
-      {
-        _id: "abc123",
-        name: "Mac",
-        job: "Bouncer",
-      },
-      {
-        _id: "ppp222",
-        name: "Mac",
-        job: "Professor",
-      },
-      {
-        _id: "yat999",
-        name: "Dee",
-        job: "Aspring actress",
-      },
-      {
-        _id: "zap555",
-        name: "Dennis",
-        job: "Bartender",
-      },
+      // {
+      //   _id: "xyz789",
+      //   name: "Charlie",
+      //   job: "Janitor",
+      // },
+      // {
+      //   _id: "abc123",
+      //   name: "Mac",
+      //   job: "Bouncer",
+      // },
+      // {
+      //   _id: "ppp222",
+      //   name: "Mac",
+      //   job: "Professor",
+      // },
+      // {
+      //   _id: "yat999",
+      //   name: "Dee",
+      //   job: "Aspring actress",
+      // },
+      // {
+      //   _id: "zap555",
+      //   name: "Dennis",
+      //   job: "Bartender",
+      // },
   ]);
 
   function removeOneCharacter(index, id){
